@@ -1,0 +1,13 @@
+#testimonials{
+background: rgb(156, 30, 30, 0.7)
+url(https://picsum.photos/200);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.circle {
+    width: 10px !important;
+    height: 10px !important;
+    aspect-ratio: 1 !important;
+    border-radius: 50% !important;
+}
