@@ -1,6 +1,9 @@
 #testimonials{
-background: rgb(156, 30, 30, 0.7)
-url(https://picsum.photos/200);
+background: linear-gradient(
+        rgba(244, 242, 242, 0.1),
+        rgba(248, 248, 248, 0.1)
+      ),
+url(../image/HD-wallpaper-navy-and-gold-kiss-navy-dark-geometrics-gold-pattern.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 }
@@ -10,4 +13,18 @@ background-repeat: no-repeat;
     height: 10px !important;
     aspect-ratio: 1 !important;
     border-radius: 50% !important;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.projects-container img {
+max-height: 400px;
+/* max-width: 300px; */
+object-fit: cover;
+flex-grow: 1;
 }
